@@ -12,6 +12,9 @@ fs.writeFile("text.txt", quote, (err) => {
 });
 
 // skapar fil och lägger in innehåll som text
+// fs.writeFile ersätter o skriver alltid över de som finns
+// i text.txt så skriver ja nåt i den filen o kör
+// writefile kör den över de..
 
 fs.readFile("text.txt", "utf8", (err, content) => {
   if (err) {
