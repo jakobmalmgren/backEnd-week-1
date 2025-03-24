@@ -95,7 +95,7 @@ fs.writeFile("styles.css", css, { encoding: "utf8" }, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("lagt till writefile");
+    console.log("lagt till writefsile");
   }
 
   fs.readFile("styles.css", "utf8", (err, content) => {
@@ -120,7 +120,7 @@ fs.writeFile("styles.css", css, { encoding: "utf8" }, (err) => {
               // annars om de inte funnit hade de blivitt null
               // o kan inte ta.length på null
               const showId = amountId ? amountId.length : 0;
-              console.log("hej", showId);
+              console.log("heaj", showId);
             }
           });
         }
